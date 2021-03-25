@@ -1,0 +1,36 @@
+
+body{
+   text-align: center;
+   width : 650px;
+   margin: 0 auto;
+}
+.header {
+   height : 120px;
+   background-color: gray; 
+}
+.navigation {
+   height : 30px;
+   background-color: skyblue; 
+}
+.clear {
+	clear: both;
+}
+.section {
+   width : 400px;
+   height : 400px;
+   float : left;
+   background-color: Orange; 
+}
+
+.aside {
+   width : 250px;
+   height : 400px;
+   float : left;
+   background-color: green; 
+}
+
+.footer {
+   height: 80px;
+   background-color: gray; 
+  
+}

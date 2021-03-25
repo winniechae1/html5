@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		아이디와 비밀번호를 입력해서 Test11_01.html 파일로 전송해보자. 
+		==> Test11_01.html 파일을 서버에게 요청을 할 때 아이디와 비밀번호를 같이 전달하면서 요청하는 것이 된다.
+	-->
+	<form method="GET" action="Test11_01.html"  style="text-align: center;">
+		<div style="display: inline-block; width: 320px; text-align: left;">
+			<label for="id" style="width: 100px; height: 30px; display: inline-block; text-align: right;">I D : </label> 
+				<input type="text" name="id" id="id" style="width: 200px; height: 30px; margin-left: 10px;">
+		</div><br>
+		<div style="display: inline-block; width: 320px; text-align: left;">
+			<label for="pw" style="width: 100px; height: 30px; display: inline-block; text-align: right;">P W : </label> 
+				<input type="password" name="pw" id="pw" style="width: 200px; height: 30px; margin-left: 10px;">
+		</div><br>
+		<div style="display: inline-block; width: 320px;">
+			<input type="submit" style="width: 150px; height: 30px;">
+			<!-- 
+				type="submit" 버튼 중 데이터를 제출하는 기능의 버튼 
+			 -->
+		</div>
+	</form>
+</body>
+</html>
